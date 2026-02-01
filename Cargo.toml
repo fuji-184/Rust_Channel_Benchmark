@@ -1,0 +1,15 @@
+[package]
+name = "bench"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossbeam = "0.8.4"
+crossfire = { version = "3.0.3", features = ["tokio"] }
+flume = "0.12.0"
+kanal = "0.1.1"
+ringbuf = "0.4.8"
+ringbuffer-spsc = "0.2.2"
+tachyonix = "0.3.1"
+thingbuf = "0.1.6"
+tokio = { version = "1.49.0", features = ["full"] }
