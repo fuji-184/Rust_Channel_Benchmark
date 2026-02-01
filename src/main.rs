@@ -11,7 +11,7 @@ mod ringbuf;
 
 use tokio::runtime::Runtime;
 
-pub const NUM_MESSAGES: usize = 1_000_000;
+pub const NUM_MESSAGES: usize = 1_000_000_000;
 pub const BUFFER_SIZE: usize = 1024;
 
 fn main() {
